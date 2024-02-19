@@ -1,0 +1,63 @@
+.header {
+  width: 95%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  background-color: white;
+}
+.header_logo {
+  width: 90px;
+  height: 30px;
+  object-fit: contain;
+  margin-left: 20px;
+}
+.header_left {
+  display: flex;
+  align-items: center;
+}
+.header_middle {
+  display: flex;
+  align-items: center;
+  width: 45%;
+  border: 1px solid lightgrey;
+  border-radius: 25px;
+  flex: 1;
+  padding: 5px;
+  margin-right: 20px;
+}
+.SearchBar {
+  flex: 1;
+  border: none;
+  height: 25px !important;
+  padding-left: 10px;
+  font-size: 16px;
+  outline: none;
+}
+.header_input {
+  display: flex;
+  align-items: center;
+  width: 45%;
+}
+.header_right {
+  display: flex;
+  align-items: center;
+}
+.header_searchbtn {
+  width: 50px !important;
+  background-color: white;
+  border-left: 1px solid lightgrey;
+}
+.header_mic {
+  margin-right: 20px;
+  background-color: whitesmoke;
+  padding: 10px;
+  border-radius: 50px;
+}
+.header_icons {
+  margin-right: 20px;
+}

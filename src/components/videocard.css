@@ -1,0 +1,96 @@
+.videocard {
+  width: 300px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  position: relative;
+}
+.videocard:hover {
+  cursor: pointer;
+}
+.videoImg {
+  width: 300px;
+  height: 172px;
+  border-radius: 15px;
+  margin-bottom: 0;
+}
+.videoData {
+  display: flex;
+  padding-top: 10px;
+}
+.duration {
+  width: 50px;
+  height: 18px;
+  text-align: center;
+  background-color: black;
+  color: white;
+  border-radius: 3px;
+  position: absolute;
+  top: 135px;
+  right: 10px;
+  font-size: 12px;
+  font-weight: 600;
+}
+.mute {
+  display: none;
+  position: absolute;
+  top: 10px;
+  background-color: black;
+  color: white !important;
+  right: 39px;
+  font-size: 20px !important;
+  padding: 4px 4px;
+  opacity: 0.8;
+  align-items: center;
+  border-radius: 3px;
+  transition: 0.5s ease;
+}
+.caption {
+  display: none;
+  position: absolute;
+  top: 10px;
+  background-color: black;
+  color: white !important;
+  right: 10px;
+  font-size: 20px !important;
+  padding: 4px 4px;
+  opacity: 0.8;
+  align-items: center;
+  border-radius: 3px;
+  transition: 0.5s ease;
+}
+.videoIcon {
+  font-size: 20px !important;
+}
+
+.videocard:hover .caption {
+  display: flex;
+  transition: 0.5s ease;
+}
+.videocard:hover .mute {
+  display: flex;
+  transition: 0.5s ease;
+}
+
+.channel_logo {
+  width: 24px;
+  height: 24px;
+  border-radius: 12px;
+  object-fit: contain;
+}
+.details {
+  margin-left: 10px;
+}
+.details p {
+  color: grey;
+  margin-top: -18px;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+.details h5 {
+  margin-top: -5px;
+}
+.name:hover {
+  color: black;
+  cursor: pointer;
+}
