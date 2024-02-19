@@ -1,4 +1,17 @@
 # Youtube-Clone
+# Prelim-Project
+
+Members:
+
+John Vincent A. Alvarado
+
+Julie Ann Benasa
+
+Renzo Jerald N. Camacho
+
+Gracia F. Miña
+
+April Joy Pocua
 
 Install the following libraries
 
